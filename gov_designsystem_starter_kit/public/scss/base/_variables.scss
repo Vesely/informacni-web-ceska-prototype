@@ -34,7 +34,7 @@ $theme-font-size-base:        14px !default;
 
 $theme-class-def:             'pvs-theme';
 $theme-class:                 '.#{$theme-class-def}';
-$theme-path:                  '';
+$theme-path:                  '' !default;
 $theme-text-color:            $theme-gray;
 $theme-letter-spacing:        .075em;
 $theme-headings-color:        $theme-gray-dark;
