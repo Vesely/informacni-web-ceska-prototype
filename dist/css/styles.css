@@ -82,6 +82,7 @@ h3 {
 
 .btn.btn-sm {
   font-size: 13px;
+  padding: 0.7rem 1rem;
 }
 
 .box {
@@ -115,8 +116,42 @@ h3 {
   margin-right: 10px;
 }
 
+.box__section h3 a {
+  text-decoration: none;
+}
+
 .box__section p {
   font-size: 13px;
+}
+
+.box--blue-dark {
+  background: #254e80;
+  color: #fff;
+}
+
+.box--blue-dark .box__section {
+  border-top-color: #fff;
+}
+
+.box--blue-dark .box__section:first-of-type {
+  border-top: 0;
+  padding-top: 4px;
+}
+
+.box--blue-dark h2 {
+  color: #fff;
+}
+
+.box--blue-dark h3 {
+  color: #fff;
+}
+
+.box--blue-dark a {
+  color: #fff !important;
+}
+
+.box--blue-dark p {
+  color: #fff;
 }
 
 .page--homepage main {

@@ -26,10 +26,44 @@
             svg {
                 margin-right: 10px;
             }
+
+            a {
+                text-decoration: none;
+            }
         }
 
         p {
             font-size: 13px;
+        }
+    }
+
+    &--blue-dark {
+        background: $theme-blue-dark;
+        color: $white;
+
+        .box__section {
+            border-top-color: $white;
+
+            &:first-of-type {
+                border-top: 0;
+                padding-top: 4px;
+            }
+        }
+        
+        h2 {
+            color: $white;
+        }
+        
+        h3 {
+            color: $white;
+        }
+
+        a {
+            color: $white !important;
+        }
+        
+        p {
+            color: $white;
         }
     }
 }
