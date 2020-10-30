@@ -50,20 +50,32 @@
             }
         }
         
-        h2 {
-            color: $white;
-        }
-        
-        h3 {
-            color: $white;
-        }
-
-        a {
+        h2,
+        h3,
+        a,
+        p {
             color: $white !important;
         }
+    }
+
+    &--blue-light {
+        background: $theme-blue-light;
+        color: $white;
+
+        .box__section {
+            border-top-color: $white;
+
+            &:first-of-type {
+                border-top: 0;
+                padding-top: 4px;
+            }
+        }
         
+        h2,
+        h3,
+        a,
         p {
-            color: $white;
+            color: $white !important;
         }
     }
 }
