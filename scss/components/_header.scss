@@ -1,0 +1,32 @@
+.header {
+    background: $theme-blue;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+    &__search {
+        position: relative;
+        margin-top: 14px;
+
+        input {
+            outline: 0;
+            background: #FFFFFF;
+            border-radius: 3px 3px 0px 0px;
+            font-size: 16px;
+            padding-top: 14px;
+            padding-bottom: 13px;
+            padding-left: 16px;
+            padding-right: 16px;
+            width: 100%;
+        }
+
+        button {
+            background: $theme-yellow;
+            width: 30px;
+            height: 30px;
+            border-radius: 3px;
+            position: absolute;
+            top: 8px;
+            right: 5px;
+        }
+    }
+}

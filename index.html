@@ -4,17 +4,121 @@
     <title>Titulek stránky</title>
     <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=375, initial-scale=1, shrink-to-fit=no">
 
+    <!--<link rel="stylesheet" media="screen" href="https://designsystem.gov.cz/assets/mv/css/front.css">-->
+    <link rel="stylesheet" media="screen" href="/front.css">
     <link rel="stylesheet" media="screen" href="/dist/css/styles.css">
-    <!--<link rel="stylesheet" media="print" href="/gov_designsystem_starter_kit/public/css/print.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <button class="btn">
-        Test button
-    </button>
-    
-    <!-- JS -->
-    <script src="/gov_designsystem_starter_kit/public/js/front.min.js"></script>
+<body class="page page--homepage">
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center">
+                    <a href="/">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <a href="#">
+                        <svg width="73" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M48 12h18M54 20h12" stroke="#fff" stroke-width="2" stroke-linecap="round"/><path d="M2.79 11.469l2.46 6.539 2.455-6.54h1.916V20H8.145v-2.813l.146-3.761L5.771 20h-1.06l-2.514-6.568.147 3.755V20H.867v-8.531H2.79zm14.075 4.722h-3.504v2.625h4.096V20h-5.578v-8.531h5.537v1.195h-4.055v2.356h3.504v1.171zM25.932 20h-1.483l-3.803-6.053V20h-1.482v-8.531h1.482l3.815 6.076v-6.076h1.47V20zm8.492-8.531v5.7c0 .907-.291 1.626-.873 2.157-.578.527-1.35.791-2.315.791-.976 0-1.752-.26-2.326-.78-.574-.523-.861-1.247-.861-2.173V11.47h1.476v5.707c0 .57.145 1.006.434 1.306.289.301.715.452 1.277.452 1.141 0 1.711-.602 1.711-1.805v-5.66h1.477z" fill="#fff"/></svg>
+                    </a>
+                </div>
+            </div>
+            <form class="header__search">
+                <input type="search" placeholder="Hledejte opatření nebo situaci">
+                <button type="submit" class="d-flex align-items-center justify-content-center">
+                    <svg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" r="5" stroke="#3B3B3B" stroke-width="2"/><path d="M10.5 9.5l3.09 3.111" stroke="#3B3B3B" stroke-width="2" stroke-linecap="square"/></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <main>
+        <div class="hero">
+            <div class="container">
+                <p class="text-center">
+                    Všechny informace týkajících se pandemie COVID-19 v České republice na jednom místě
+                </p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="box">
+                <h2>
+                    <strong>Aktuální</strong> opatření
+                </h2>
+                <p>
+                    Všechna současná nařízení vlády, jejich detail, platnost a jednoduché vysvětlení
+                </p>
+
+                <div class="box__section">
+                    <h3 class="d-flex align-items-center">
+                        <svg width="21" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 15a2 2 0 002-2V2a2 2 0 00-2-2H7.96c.35.61.54 1.3.54 2h10v11h-9v2h9zm-5-10v2h-6v13h-2v-6h-2v6h-2v-8H0V7a2 2 0 012-2h11.5zm-7-3a2 2 0 11-4 0 2 2 0 014 0z" fill="#ECAE1A"/></svg>
+                        <span>Nosit roušky</span>
+                    </h3>
+                    <p>
+                        Rouška se musí nosit venku až na pár 
+                    </p>
+
+                    <div class="d-flex align-items-center justify-content-between mt-1">
+                        <p>
+                            Platí pro: Celá ČR <br>
+                            od 2. října do 6. listopadu
+                        </p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Více
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box__section">
+                    <h3 class="d-flex align-items-center">
+                        <svg width="21" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 15a2 2 0 002-2V2a2 2 0 00-2-2H7.96c.35.61.54 1.3.54 2h10v11h-9v2h9zm-5-10v2h-6v13h-2v-6h-2v6h-2v-8H0V7a2 2 0 012-2h11.5zm-7-3a2 2 0 11-4 0 2 2 0 014 0z" fill="#ECAE1A"/></svg>
+                        <span>Nosit roušky</span>
+                    </h3>
+                    <p>
+                        Rouška se musí nosit venku až na pár 
+                    </p>
+
+                    <div class="d-flex align-items-center justify-content-between mt-1">
+                        <p>
+                            Platí pro: Celá ČR <br>
+                            od 2. října do 6. listopadu
+                        </p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Více
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box__section">
+                    <h3 class="d-flex align-items-center">
+                        <svg width="21" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 15a2 2 0 002-2V2a2 2 0 00-2-2H7.96c.35.61.54 1.3.54 2h10v11h-9v2h9zm-5-10v2h-6v13h-2v-6h-2v6h-2v-8H0V7a2 2 0 012-2h11.5zm-7-3a2 2 0 11-4 0 2 2 0 014 0z" fill="#ECAE1A"/></svg>
+                        <span>Nosit roušky</span>
+                    </h3>
+                    <p>
+                        Rouška se musí nosit venku až na pár 
+                    </p>
+
+                    <div class="d-flex align-items-center justify-content-between mt-1">
+                        <p>
+                            Platí pro: Celá ČR <br>
+                            od 2. října do 6. listopadu
+                        </p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Více
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-yellow btn-block btn-sm mt-1">
+                    Zobrazit všechna opatření
+                </a>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>

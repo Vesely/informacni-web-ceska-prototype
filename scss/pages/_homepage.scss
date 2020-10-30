@@ -1,0 +1,26 @@
+.page--homepage {
+    main {
+        background: $theme-blue;
+    }
+
+    .hero {
+        background: url(/images/homepage-hero-bg.png);
+        background-size: cover;
+        padding-top: 48px;
+        padding-bottom: 84px;
+
+        p {
+            letter-spacing: 0.5px;
+            color: $white;
+            margin: 0 auto;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    .hero + .container .box:first-of-type {
+        margin-top: -50px;
+    }
+    
+}

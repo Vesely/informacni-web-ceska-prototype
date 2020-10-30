@@ -1,0 +1,9 @@
+.btn {
+    &.btn-yellow {
+        background: $theme-yellow;
+    }
+
+    &.btn-sm {
+        font-size: 13px;
+    }
+}
